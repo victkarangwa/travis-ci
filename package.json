@@ -4,7 +4,7 @@
   "description": "API endpoints for WayFarer",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=text mocha --require @babel/register ",
+    "test": "nyc --reporter=text mocha --require @babel/register --exit",
     "babel-node": "babel-node --presets=@babel/preset-env",
     "start": "nodemon  --exec babel-node index.js",
     "build": "babel lib -d dist",
