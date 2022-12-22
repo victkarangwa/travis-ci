@@ -22,7 +22,7 @@
     "express": "^4.17.1",
     "faker": "^4.1.0",
     "joi": "^14.3.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.14",
     "node-datetime": "^2.1.2"
   },
